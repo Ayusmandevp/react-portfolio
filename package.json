@@ -4,13 +4,11 @@
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
   "homepage": "https://ayusmandevp.github.io/react-portfolio",
-"scripts": {
-  "start": "parcel src/index.html",
-  "build": "parcel build src/index.html --dist-dir dist",
-  "deploy": "gh-pages -d dist"
-}
-
-,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist",
+    "deploy": "gh-pages -d dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
